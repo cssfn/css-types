@@ -1,0 +1,29 @@
+{
+  "name": "@cssfn/css-types",
+  "version": "1.0.0",
+  "description": "CSS typescript definitions.",
+  "main": "dist/css-types.js",
+  "types": "dist/css-types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cssfn/css-types.git"
+  },
+  "keywords": [
+    "css",
+    "typescript"
+  ],
+  "author": "heymarco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cssfn/css-types/issues"
+  },
+  "homepage": "https://github.com/cssfn/css-types#readme",
+  "dependencies": {
+    "@cssfn/jss-plugin-extend": "^1.0.0",
+    "@cssfn/types": "^1.0.1",
+    "csstype": "^3.0.9"
+  }
+}
