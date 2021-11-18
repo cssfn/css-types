@@ -1,7 +1,8 @@
 {
   "name": "@cssfn/css-types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CSS typescript definitions.",
+  "type": "module",
   "main": "dist/css-types.js",
   "types": "dist/css-types.d.ts",
   "scripts": {
@@ -22,8 +23,8 @@
   },
   "homepage": "https://github.com/cssfn/css-types#readme",
   "dependencies": {
-    "@cssfn/jss-plugin-extend": "^1.0.0",
-    "@cssfn/types": "^1.0.2",
-    "csstype": "^3.0.9"
+    "@cssfn/jss-plugin-extend": "^1.0.1",
+    "@cssfn/types": "^1.0.3",
+    "csstype": "^3.0.10"
   }
 }
