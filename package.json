@@ -1,6 +1,6 @@
 {
   "name": "@cssfn/css-types",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CSS typescript definitions.",
   "type": "module",
   "main": "dist/css-types.js",

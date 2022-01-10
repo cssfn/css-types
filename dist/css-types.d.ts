@@ -7,8 +7,8 @@ export declare namespace Cust {
     type RefOne = `var(${Decl})`;
     type Ref = RefOne | `var(${Decl},${RefOne})` | `var(${Decl},${string})`;
     type KeyframesRef = string;
-    type General = string | number;
-    type Expr = General | Ref | (General | Ref)[] | (General | Ref)[][];
+    type General = (string & {}) | (number & {});
+    type Expr = General | Ref | (General | Ref)[] | ((General | Ref) | (General | Ref)[] | '!important')[];
 }
 export declare namespace PropEx {
     type Keyframes = Dictionary<Style>;
