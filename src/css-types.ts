@@ -4,7 +4,7 @@ import type { Style }       from '@cssfn/jss-plugin-extend'
 // cssfn:
 import type {
     Dictionary,
-}                           from '@cssfn/types'  // cssfn's types
+}                           from '@cssfn/types'       // cssfn's types
 
 // others libs:
 import type { Property }    from 'csstype'       // ts defs support for cssfn
